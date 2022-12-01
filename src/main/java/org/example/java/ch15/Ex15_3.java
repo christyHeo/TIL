@@ -21,7 +21,7 @@ public class Ex15_3 {
         while(input.available() > 0) {
 //          input.read(temp);
 //          output.write(temp);
-          
+
           int len = input.read(temp);
           output.write(temp, 0, len);
 
